@@ -1,0 +1,25 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chat app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dobahoan2792000/chat-app.git"
+  },
+  "author": "Hoan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dobahoan2792000/chat-app/issues"
+  },
+  "homepage": "https://github.com/dobahoan2792000/chat-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.1.2"
+  }
+}
